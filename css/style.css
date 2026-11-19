@@ -102,3 +102,10 @@ footer{grid-area:footer;}
             width:2.5rem;
         }
 } }
+
+.message{
+    color:red;
+}
+input.invalid{
+    border: 2px solid red;
+}
