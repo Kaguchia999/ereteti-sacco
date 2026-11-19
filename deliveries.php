@@ -13,8 +13,6 @@ $result = mysqli_query($conn, $sql);
 $count = mysqli_num_rows($result);
 ?>
 
-$count = mysqli_num_rows($result);  ?>
-
   <main>
  <p><?php echo $count; ?> deliveries on this day.</p>   
    <p><?php echo $count; ?> deliveries on this day.</p> 
